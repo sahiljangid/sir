@@ -1,0 +1,840 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(bg.gif);
+  background-size: cover;
+  /* background: radial-gradient(black, white); */
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  margin-top: 25vh;
+  border-radius: 100%;
+  height: 50vh;
+  width: 50vw;
+  background-color: rgb(29, 20, 27);
+  box-shadow: 0px 0px 550px 50px;
+  z-index: 10;
+  color: white;
+  overflow: hidden;
+}
+
+.box div {
+  position: absolute;
+  bottom: 0px;
+  font-family: "Courier New";
+  font-size: 25px;
+  margin-left: 10vw;
+  text-align: center;
+  height: 20px;
+  width: 30vw;
+}
+
+#box1 {
+  animation: box1 3s forwards 1;
+  top: 450px;
+  visibility: hidden;
+}
+
+@keyframes box1 {
+  0% {
+    visibility: visible;
+    top: 450px;
+    opacity: 0;
+  }
+  40% {
+    top: 250px;
+    opacity: 1;
+  }
+  70% {
+    top: 200px;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px;
+  }
+}
+
+#box2 {
+  animation: box2 3s 3s forwards 1;
+  top: 450px;
+  visibility: hidden;
+}
+
+@keyframes box2 {
+  0% {
+    visibility: visible;
+    top: 450px;
+    opacity: 0;
+  }
+  40% {
+    top: 250px;
+    opacity: 1;
+  }
+  70% {
+    top: 200px;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px;
+  }
+}
+
+#box3 {
+  animation: box3 3s 6s forwards 1;
+  top: 450px;
+  visibility: hidden;
+}
+
+@keyframes box3 {
+  0% {
+    visibility: visible;
+    top: 450px;
+    opacity: 0;
+  }
+  40% {
+    top: 250px;
+    opacity: 1;
+  }
+  70% {
+    top: 200px;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px;
+  }
+}
+
+#box4 {
+  animation: box4 3s 9s forwards 1;
+  top: 450px;
+  visibility: hidden;
+}
+
+@keyframes box4 {
+  0% {
+    visibility: visible;
+    top: 450px;
+    opacity: 0;
+  }
+  40% {
+    top: 250px;
+    opacity: 1;
+  }
+  70% {
+    top: 200px;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px;
+  }
+}
+
+#box5 {
+  animation: box5 1s 12s forwards 1;
+  top: 450px;
+  visibility: hidden;
+}
+
+@keyframes box5 {
+  0% {
+    visibility: visible;
+    top: 450px;
+    opacity: 0;
+  }
+  40% {
+    top: 250px;
+    opacity: 1;
+  }
+  70% {
+    top: 200px;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px;
+  }
+}
+
+#box7 {
+  animation: box7 1s 13s forwards 1;
+  top: 450px;
+  visibility: hidden;
+}
+
+@keyframes box7 {
+  0% {
+    visibility: visible;
+    top: 450px;
+    opacity: 0;
+  }
+  40% {
+    top: 250px;
+    opacity: 1;
+  }
+  70% {
+    top: 200px;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px;
+  }
+}
+
+#box8 {
+  animation: box8 1s 14s forwards 1;
+  top: 450px;
+  visibility: hidden;
+}
+
+@keyframes box8 {
+  0% {
+    visibility: visible;
+    top: 450px;
+    opacity: 0;
+  }
+  40% {
+    top: 250px;
+    opacity: 1;
+  }
+  70% {
+    top: 200px;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px;
+  }
+}
+
+#box9 {
+  animation: box9 1s 15s forwards 1;
+  top: 450px;
+  visibility: hidden;
+}
+
+@keyframes box9 {
+  0% {
+    visibility: visible;
+    top: 450px;
+    opacity: 0;
+  }
+  40% {
+    top: 250px;
+    opacity: 1;
+  }
+  70% {
+    top: 200px;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px;
+  }
+}
+
+#box10 {
+  animation: box10 1s 16s forwards 1;
+  top: 450px;
+  visibility: hidden;
+}
+
+@keyframes box10 {
+  0% {
+    visibility: visible;
+    top: 450px;
+    opacity: 0;
+  }
+  40% {
+    top: 250px;
+    opacity: 1;
+  }
+  70% {
+    top: 200px;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px;
+  }
+}
+
+#box11 {
+  animation: box11 1s 17s forwards 1;
+  top: 450px;
+  visibility: hidden;
+}
+
+@keyframes box11 {
+  0% {
+    visibility: visible;
+    top: 450px;
+    opacity: 0;
+  }
+  40% {
+    top: 250px;
+    opacity: 1;
+  }
+  70% {
+    top: 200px;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px;
+  }
+}
+
+#box12 {
+  animation: box12 1s 18s forwards 1;
+  top: 450px;
+  visibility: hidden;
+}
+
+@keyframes box12 {
+  0% {
+    visibility: visible;
+    top: 450px;
+    opacity: 0;
+  }
+  40% {
+    top: 250px;
+    opacity: 1;
+  }
+  70% {
+    top: 200px;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px;
+  }
+}
+
+#box13 {
+  animation: box13 1s 19s forwards 1;
+  top: 450px;
+  visibility: hidden;
+}
+
+@keyframes box13 {
+  0% {
+    visibility: visible;
+    top: 450px;
+    opacity: 0;
+  }
+  40% {
+    top: 250px;
+    opacity: 1;
+  }
+  70% {
+    top: 200px;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px;
+  }
+}
+
+#box14 {
+  animation: box14 3s 20s forwards 1;
+  top: 450px;
+  visibility: hidden;
+}
+
+@keyframes box14 {
+  0% {
+    visibility: visible;
+    top: 450px;
+    opacity: 0;
+  }
+  40% {
+    top: 250px;
+    opacity: 1;
+  }
+  70% {
+    top: 200px;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px;
+  }
+}
+/* 23s */
+#box15 {
+  animation: box6 3s 23s forwards 1;
+  top: 450px;
+  visibility: hidden;
+}
+
+@keyframes box6 {
+  0% {
+    visibility: visible;
+    top: 450px;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    top: 225px;
+    opacity: 1;
+  }
+}
+
+
+
+
+a{
+  position: relative;
+  background: #444;
+  color: #fff;
+  text-decoration: none;
+  font-size: .7em;
+  letter-spacing: 0.1em;
+  padding: 10px 30px;
+  transition: 0.5s;
+}
+a:hover{
+  letter-spacing: 0.25em;
+  background: var(--clr);
+  color: var(--clr);
+  box-shadow: 0 0 35px var(--clr);
+}
+
+a::before{
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: #27282c;
+}
+
+a span{
+  position: relative;
+  z-index: 1;
+}
+a i{
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+
+a i::before
+{
+  content: '';
+  position: absolute;
+  top: -12.5px;
+  left: 80%;
+  width: 10px;
+  height: 5px;
+  border: 2px solid var(--clr);
+  background: #27282c;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+a:hover i::before{
+  width: 20px;
+  left: 20%;
+}
+
+
+
+a i::after
+{
+  content: '';
+  position: absolute;
+  bottom: -12.5px;
+  left: 20%;
+  width: 10px;
+  height: 5px;
+  border: 2px solid var(--clr);
+  background: #27282c;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+a:hover i::after{
+  width: 20px;
+  left: 80%;
+}
+
+
+
+
+
+
+/* #btn{
+  background-color: rgb(29, 20, 27);
+  font-family: 'Arial Narrow';
+  color: #E6B0AA;
+  border: 1px solid #E6B0AA;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#btn:hover{
+  transition: 0.5s;
+  font-family: 'Arial Narrow';
+  border: 1px solid #E6B0AA;
+  color: whitesmoke;
+  border-radius: 5px;
+  font-size: 15.5px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Images */
+
+.hey {
+  position: absolute;
+  top: 0px;
+  height: 150px;
+  width: 150px;
+  background-image: url(hey.jpg);
+  border-radius: 10%;
+  background-size: contain;
+  background-position: center;
+  animation: hey 2.5s 0.5s forwards 1 linear;
+  animation-fill-mode: both;
+}
+
+@keyframes hey {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.ss {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 150px;
+  width: 150px;
+  background-image: url(ss.jpg);
+  border-radius: 10%;
+  background-size: cover;
+  background-position: center;
+  animation: ss 3s 3.5s forwards 1 linear;
+  animation-fill-mode: both;
+}
+
+@keyframes ss {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.bd1 {
+  position: absolute;
+  bottom: 0px;
+  height: 200px;
+  width: 200px;
+  background-image: url(bd1.jpg);
+  border-radius: 10%;
+  background-size: contain;
+  background-position: center;
+  animation: bd1 3s 7s forwards 1 linear;
+  animation-fill-mode: both;
+}
+
+@keyframes bd1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.bd2 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 200px;
+  width: 200px;
+  background-image: url(bd2.jpg);
+  border-radius: 10%;
+  background-size: contain;
+  background-position: center;
+  animation: bd2 3s 10s forwards 1 linear;
+  animation-fill-mode: both;
+}
+
+@keyframes bd2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* corner */
+
+.cor1 {
+  position: absolute;
+  top: 0px;
+  height: 200px;
+  width: 200px;
+  background-image: url(cor1.jpg);
+  border-radius: 10%;
+  background-position: center;
+  background-size: contain;
+  animation: cor1 3s 13s forwards 1 linear;
+  animation-fill-mode: both;
+}
+
+@keyframes cor1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.cor2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 200px;
+  width: 200px;
+  background-image: url(cor2.jpg);
+  border-radius: 10%;
+  background-position: center;
+  background-size: contain;
+  animation: cor2 3s 13s forwards 1 linear;
+  animation-fill-mode: both;
+}
+
+@keyframes cor2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.cor3 {
+  position: absolute;
+  bottom: 0px;
+  height: 200px;
+  width: 200px;
+  background-image: url(cor3.jpg);
+  border-radius: 10%;
+  background-position: center;
+  background-size: contain;
+  animation: cor3 3s 13s forwards 1 linear;
+  animation-fill-mode: both;
+}
+
+@keyframes cor3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.cor4 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 200px;
+  width: 200px;
+  background-image: url(cor4.jpg);
+  border-radius: 10%;
+  background-position: center;
+
+  background-size: contain;
+  animation: cor4 3s 13s forwards 1 linear;
+  animation-fill-mode: both;
+}
+
+@keyframes cor4 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.corn1 {
+  position: absolute;
+  top: 0px;
+  height: 200px;
+  width: 200px;
+  background-image: url(corn1.jpg);
+  border-radius: 10%;
+  background-position: center;
+
+  background-size: contain;
+  animation: corn1 3s 16s forwards 1 linear;
+  animation-fill-mode: both;
+}
+
+@keyframes corn1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.corn2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 200px;
+  width: 200px;
+  background-image: url(corn2.jpg);
+  border-radius: 10%;
+  background-position: center;
+
+  background-size: contain;
+  animation: corn2 3s 16.5s forwards 1 linear;
+  animation-fill-mode: both;
+}
+
+@keyframes corn2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.corn3 {
+  position: absolute;
+  bottom: 0px;
+  height: 600px;
+  width: 200px;
+  background-image: url(corn3.jpg);
+  border-radius: 10%;
+  background-position:center;
+  background-size: cover;
+  animation: corn3 3s 17s forwards 1 linear;
+  animation-fill-mode: both;
+}
+
+@keyframes corn3 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.corn4 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 600px;
+  width: 200px;
+  background-image: url(corn4.jpg);
+  border-radius: 10%;
+  background-position: center;
+  background-size: cover;
+  animation: corn4 3s 17.5s forwards 1 linear;
+  animation-fill-mode: both;
+}
+
+@keyframes corn4 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.ck1 {
+  position: absolute;
+  top: 0px;
+  height: 20vh;
+  width: 100vw;
+  background-image: url(ck1.gif);
+  background-position: center;
+  background-size: contain;
+  animation: ck1 3s 20.5s forwards 1 linear;
+  animation-fill-mode: both;
+}
+
+@keyframes ck1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+

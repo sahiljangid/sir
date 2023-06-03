@@ -1,0 +1,1889 @@
+/* for happy div border */
+@property --gradient-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+:root {
+  --clr-1: #641e16;
+  --clr-2: #78281f;
+  --clr-3: #512e5f;
+  --clr-4: #4a235a;
+  --clr-5: #154360;
+  --clr-6: #1b4f72;
+  --clr-7: #0e6251;
+  --clr-8: #0b5345;
+  --clr-9: #145a32;
+  --clr-10: #186a3b;
+  --clr-11: #7d6608;
+  --clr-12: #7e5109;
+  --clr-13: #784212;
+  --clr-14: #6e2c00;
+  --clr-15: #7b7d7d;
+  --clr-16: #626567;
+  --clr-17: #4d5656;
+  --clr-18: #424949;
+  --clr-19: #1b2631;
+  --clr-20: #17202a;
+  --clr-21: #17202a;
+}
+
+body {
+  background: url(bg1.gif);
+  background-size: cover;
+  /* background-color: var(--clr-21); */
+  display: grid;
+  place-content: center;
+}
+
+/* ************* Happy birthday start **************** */
+
+.happy {
+  left: 0px;
+  height: 6vh;
+  width: 99.2vw;
+  /* aspect-ratio: 1/1.5; */
+  background: var(--clr-21);
+  border-radius: 0.5rem;
+  position: relative;
+  color: white;
+  padding-top: 5px;
+  font-size: 30px;
+}
+
+.happy::before,
+.happy::after {
+  content: " ";
+  position: absolute;
+  inset: -0.5rem;
+  z-index: -1;
+  background: conic-gradient(
+    from var(--gradient-angle),
+    var(--clr-1),
+    var(--clr-2),
+    var(--clr-3),
+    var(--clr-4),
+    var(--clr-5),
+    var(--clr-6),
+    var(--clr-7),
+    var(--clr-8),
+    var(--clr-9),
+    var(--clr-10),
+    var(--clr-11),
+    var(--clr-12),
+    var(--clr-13),
+    var(--clr-14),
+    var(--clr-15),
+    var(--clr-16),
+    var(--clr-17),
+    var(--clr-18),
+    var(--clr-19),
+    var(--clr-20),
+    var(--clr-19),
+    var(--clr-18),
+    var(--clr-17),
+    var(--clr-16),
+    var(--clr-15),
+    var(--clr-14),
+    var(--clr-13),
+    var(--clr-12),
+    var(--clr-11),
+    var(--clr-10),
+    var(--clr-9),
+    var(--clr-8),
+    var(--clr-7),
+    var(--clr-6),
+    var(--clr-5),
+    var(--clr-4),
+    var(--clr-3),
+    var(--clr-2),
+    var(--clr-1)
+  );
+  animation: happyanim 10s linear infinite;
+}
+.happy::after {
+  filter: blur(5.5rem);
+}
+
+@keyframes happyanim {
+  0% {
+    --gradient-angle: 0deg;
+  }
+  100% {
+    --gradient-angle: 360deg;
+  }
+}
+
+/* happy birthday position */
+.happy {
+  text-align: center;
+}
+
+.happy span {
+  font-weight: bold;
+  margin-left: 10px;
+  color: var(--clr-21);
+}
+
+.happy .b {
+  margin-left: 20px;
+}
+
+/* start color buttons */
+
+.sbtn1 {
+  width: 20px;
+  height: 20px;
+  top: 30px;
+  background-color: #641e16;
+  position: absolute;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+/* Happy bir.... animation */
+/* **************h***************** */
+.h {
+  position: relative;
+  top: 26px;
+  background-color: transparent;
+  animation: h 1s linear infinite alternate forwards;
+}
+
+@keyframes h {
+    0% {
+        color: #641e16;
+      }
+      5% {
+        top: 25px;
+        color: #78281f;
+      }
+      10% {
+        top: 23px;
+        color: #512e5f;
+      }
+      15% {
+        top: 22px;
+        color: #4a235a;
+      }
+      20% {
+        top: 20px;
+        color: #154360;
+      }
+      25% {
+        top: 19px;
+        color: #1b4f72;
+      }
+      30% {
+        top: 17px;
+        color: #0e6251;
+      }
+      35% {
+        top: 16px;
+        color: #0b5345;
+      }
+      40% {
+        top: 14px;
+        color: #145a32;
+      }
+      45% {
+        top: 13px;
+        color: #186a3b;
+      }
+      50% {
+        top: 11px;
+        color: #7d6608;
+      }
+      55% {
+        top: 10px;
+        color: #7e5109;
+      }
+      60% {
+        top: 8px;
+        color: #6e2c00;
+      }
+      65% {
+        top: 7px;
+        color: #7b7d7d;
+      }
+      70% {
+        top: 5px;
+        color: #626567;
+      }
+      75% {
+        top: 4px;
+        color: #4d5656;
+      }
+      80% {
+        top: 2px;
+        color: #424949;
+      }
+      85% {
+        top: 1px;
+        color: #1b2631;
+      }
+      90% {
+        top: -1px;
+        color: #17202a;
+      }
+      95% {
+        top: -2px;
+        color: #1b4f72;
+      }
+      100% {
+        top: -4px;
+        color: #145a32;
+      }
+}
+
+/* **************a***************** */
+.a {
+  position: relative;
+  top: 26px;
+  background-color: transparent;
+
+  animation: a 1s 0.2s linear infinite alternate forwards;
+}
+
+@keyframes a {
+  0% {
+    color: #641e16;
+  }
+  5% {
+    top: 25px;
+    color: #78281f;
+  }
+  10% {
+    top: 23px;
+    color: #512e5f;
+  }
+  15% {
+    top: 22px;
+    color: #4a235a;
+  }
+  20% {
+    top: 20px;
+    color: #154360;
+  }
+  25% {
+    top: 19px;
+    color: #1b4f72;
+  }
+  30% {
+    top: 17px;
+    color: #0e6251;
+  }
+  35% {
+    top: 16px;
+    color: #0b5345;
+  }
+  40% {
+    top: 14px;
+    color: #145a32;
+  }
+  45% {
+    top: 13px;
+    color: #186a3b;
+  }
+  50% {
+    top: 11px;
+    color: #7d6608;
+  }
+  55% {
+    top: 10px;
+    color: #7e5109;
+  }
+  60% {
+    top: 8px;
+    color: #6e2c00;
+  }
+  65% {
+    top: 7px;
+    color: #7b7d7d;
+  }
+  70% {
+    top: 5px;
+    color: #626567;
+  }
+  75% {
+    top: 4px;
+    color: #4d5656;
+  }
+  80% {
+    top: 2px;
+    color: #424949;
+  }
+  85% {
+    top: 1px;
+    color: #1b2631;
+  }
+  90% {
+    top: -1px;
+    color: #17202a;
+  }
+  95% {
+    top: -2px;
+    color: #1b4f72;
+  }
+  100% {
+    top: -4px;
+    color: #145a32;
+  }
+}
+
+/* **************p***************** */
+.p {
+  position: relative;
+  top: 26px;
+  background-color: transparent;
+
+  animation: p 1s 0.4s linear infinite alternate forwards;
+}
+
+@keyframes p {
+    0% {
+        color: #641e16;
+      }
+      5% {
+        top: 25px;
+        color: #78281f;
+      }
+      10% {
+        top: 23px;
+        color: #512e5f;
+      }
+      15% {
+        top: 22px;
+        color: #4a235a;
+      }
+      20% {
+        top: 20px;
+        color: #154360;
+      }
+      25% {
+        top: 19px;
+        color: #1b4f72;
+      }
+      30% {
+        top: 17px;
+        color: #0e6251;
+      }
+      35% {
+        top: 16px;
+        color: #0b5345;
+      }
+      40% {
+        top: 14px;
+        color: #145a32;
+      }
+      45% {
+        top: 13px;
+        color: #186a3b;
+      }
+      50% {
+        top: 11px;
+        color: #7d6608;
+      }
+      55% {
+        top: 10px;
+        color: #7e5109;
+      }
+      60% {
+        top: 8px;
+        color: #6e2c00;
+      }
+      65% {
+        top: 7px;
+        color: #7b7d7d;
+      }
+      70% {
+        top: 5px;
+        color: #626567;
+      }
+      75% {
+        top: 4px;
+        color: #4d5656;
+      }
+      80% {
+        top: 2px;
+        color: #424949;
+      }
+      85% {
+        top: 1px;
+        color: #1b2631;
+      }
+      90% {
+        top: -1px;
+        color: #17202a;
+      }
+      95% {
+        top: -2px;
+        color: #1b4f72;
+      }
+      100% {
+        top: -4px;
+        color: #145a32;
+      }
+}
+
+/* **************p1***************** */
+.p1 {
+  position: relative;
+  top: 26px;
+  background-color: transparent;
+
+  animation: p1 1s 0.6s linear infinite alternate forwards;
+}
+
+@keyframes p1 {
+    0% {
+        color: #641e16;
+      }
+      5% {
+        top: 25px;
+        color: #78281f;
+      }
+      10% {
+        top: 23px;
+        color: #512e5f;
+      }
+      15% {
+        top: 22px;
+        color: #4a235a;
+      }
+      20% {
+        top: 20px;
+        color: #154360;
+      }
+      25% {
+        top: 19px;
+        color: #1b4f72;
+      }
+      30% {
+        top: 17px;
+        color: #0e6251;
+      }
+      35% {
+        top: 16px;
+        color: #0b5345;
+      }
+      40% {
+        top: 14px;
+        color: #145a32;
+      }
+      45% {
+        top: 13px;
+        color: #186a3b;
+      }
+      50% {
+        top: 11px;
+        color: #7d6608;
+      }
+      55% {
+        top: 10px;
+        color: #7e5109;
+      }
+      60% {
+        top: 8px;
+        color: #6e2c00;
+      }
+      65% {
+        top: 7px;
+        color: #7b7d7d;
+      }
+      70% {
+        top: 5px;
+        color: #626567;
+      }
+      75% {
+        top: 4px;
+        color: #4d5656;
+      }
+      80% {
+        top: 2px;
+        color: #424949;
+      }
+      85% {
+        top: 1px;
+        color: #1b2631;
+      }
+      90% {
+        top: -1px;
+        color: #17202a;
+      }
+      95% {
+        top: -2px;
+        color: #1b4f72;
+      }
+      100% {
+        top: -4px;
+        color: #145a32;
+      }
+}
+
+/* **************y***************** */
+.y {
+  position: relative;
+  top: 26px;
+  background-color: transparent;
+
+  animation: y 1s 0.8s linear infinite alternate forwards;
+}
+
+@keyframes y {
+    0% {
+        color: #641e16;
+      }
+      5% {
+        top: 25px;
+        color: #78281f;
+      }
+      10% {
+        top: 23px;
+        color: #512e5f;
+      }
+      15% {
+        top: 22px;
+        color: #4a235a;
+      }
+      20% {
+        top: 20px;
+        color: #154360;
+      }
+      25% {
+        top: 19px;
+        color: #1b4f72;
+      }
+      30% {
+        top: 17px;
+        color: #0e6251;
+      }
+      35% {
+        top: 16px;
+        color: #0b5345;
+      }
+      40% {
+        top: 14px;
+        color: #145a32;
+      }
+      45% {
+        top: 13px;
+        color: #186a3b;
+      }
+      50% {
+        top: 11px;
+        color: #7d6608;
+      }
+      55% {
+        top: 10px;
+        color: #7e5109;
+      }
+      60% {
+        top: 8px;
+        color: #6e2c00;
+      }
+      65% {
+        top: 7px;
+        color: #7b7d7d;
+      }
+      70% {
+        top: 5px;
+        color: #626567;
+      }
+      75% {
+        top: 4px;
+        color: #4d5656;
+      }
+      80% {
+        top: 2px;
+        color: #424949;
+      }
+      85% {
+        top: 1px;
+        color: #1b2631;
+      }
+      90% {
+        top: -1px;
+        color: #17202a;
+      }
+      95% {
+        top: -2px;
+        color: #1b4f72;
+      }
+      100% {
+        top: -4px;
+        color: #145a32;
+      }
+}
+
+/* **************b***************** */
+.b {
+  position: relative;
+  top: 26px;
+  background-color: transparent;
+
+  animation: b 1s 1s linear infinite alternate forwards;
+}
+
+@keyframes b {
+    0% {
+        color: #641e16;
+      }
+      5% {
+        top: 25px;
+        color: #78281f;
+      }
+      10% {
+        top: 23px;
+        color: #512e5f;
+      }
+      15% {
+        top: 22px;
+        color: #4a235a;
+      }
+      20% {
+        top: 20px;
+        color: #154360;
+      }
+      25% {
+        top: 19px;
+        color: #1b4f72;
+      }
+      30% {
+        top: 17px;
+        color: #0e6251;
+      }
+      35% {
+        top: 16px;
+        color: #0b5345;
+      }
+      40% {
+        top: 14px;
+        color: #145a32;
+      }
+      45% {
+        top: 13px;
+        color: #186a3b;
+      }
+      50% {
+        top: 11px;
+        color: #7d6608;
+      }
+      55% {
+        top: 10px;
+        color: #7e5109;
+      }
+      60% {
+        top: 8px;
+        color: #6e2c00;
+      }
+      65% {
+        top: 7px;
+        color: #7b7d7d;
+      }
+      70% {
+        top: 5px;
+        color: #626567;
+      }
+      75% {
+        top: 4px;
+        color: #4d5656;
+      }
+      80% {
+        top: 2px;
+        color: #424949;
+      }
+      85% {
+        top: 1px;
+        color: #1b2631;
+      }
+      90% {
+        top: -1px;
+        color: #17202a;
+      }
+      95% {
+        top: -2px;
+        color: #1b4f72;
+      }
+      100% {
+        top: -4px;
+        color: #145a32;
+      }
+}
+
+/* **************i***************** */
+.i {
+  position: relative;
+  top: 26px;
+  background-color: transparent;
+
+  animation: i 1s 1.2s linear infinite alternate forwards;
+}
+
+@keyframes i {
+    0% {
+        color: #641e16;
+      }
+      5% {
+        top: 25px;
+        color: #78281f;
+      }
+      10% {
+        top: 23px;
+        color: #512e5f;
+      }
+      15% {
+        top: 22px;
+        color: #4a235a;
+      }
+      20% {
+        top: 20px;
+        color: #154360;
+      }
+      25% {
+        top: 19px;
+        color: #1b4f72;
+      }
+      30% {
+        top: 17px;
+        color: #0e6251;
+      }
+      35% {
+        top: 16px;
+        color: #0b5345;
+      }
+      40% {
+        top: 14px;
+        color: #145a32;
+      }
+      45% {
+        top: 13px;
+        color: #186a3b;
+      }
+      50% {
+        top: 11px;
+        color: #7d6608;
+      }
+      55% {
+        top: 10px;
+        color: #7e5109;
+      }
+      60% {
+        top: 8px;
+        color: #6e2c00;
+      }
+      65% {
+        top: 7px;
+        color: #7b7d7d;
+      }
+      70% {
+        top: 5px;
+        color: #626567;
+      }
+      75% {
+        top: 4px;
+        color: #4d5656;
+      }
+      80% {
+        top: 2px;
+        color: #424949;
+      }
+      85% {
+        top: 1px;
+        color: #1b2631;
+      }
+      90% {
+        top: -1px;
+        color: #17202a;
+      }
+      95% {
+        top: -2px;
+        color: #1b4f72;
+      }
+      100% {
+        top: -4px;
+        color: #145a32;
+      }
+}
+
+/* **************r***************** */
+.r {
+  position: relative;
+  top: 26px;
+  background-color: transparent;
+
+  animation: r 1s 1.4s linear infinite alternate forwards;
+}
+
+@keyframes r {
+    0% {
+        color: #641e16;
+      }
+      5% {
+        top: 25px;
+        color: #78281f;
+      }
+      10% {
+        top: 23px;
+        color: #512e5f;
+      }
+      15% {
+        top: 22px;
+        color: #4a235a;
+      }
+      20% {
+        top: 20px;
+        color: #154360;
+      }
+      25% {
+        top: 19px;
+        color: #1b4f72;
+      }
+      30% {
+        top: 17px;
+        color: #0e6251;
+      }
+      35% {
+        top: 16px;
+        color: #0b5345;
+      }
+      40% {
+        top: 14px;
+        color: #145a32;
+      }
+      45% {
+        top: 13px;
+        color: #186a3b;
+      }
+      50% {
+        top: 11px;
+        color: #7d6608;
+      }
+      55% {
+        top: 10px;
+        color: #7e5109;
+      }
+      60% {
+        top: 8px;
+        color: #6e2c00;
+      }
+      65% {
+        top: 7px;
+        color: #7b7d7d;
+      }
+      70% {
+        top: 5px;
+        color: #626567;
+      }
+      75% {
+        top: 4px;
+        color: #4d5656;
+      }
+      80% {
+        top: 2px;
+        color: #424949;
+      }
+      85% {
+        top: 1px;
+        color: #1b2631;
+      }
+      90% {
+        top: -1px;
+        color: #17202a;
+      }
+      95% {
+        top: -2px;
+        color: #1b4f72;
+      }
+      100% {
+        top: -4px;
+        color: #145a32;
+      }
+}
+
+/* **************t***************** */
+.t {
+  position: relative;
+  top: 26px;
+  background-color: transparent;
+
+  animation: t 1s 1.6s linear infinite alternate forwards;
+}
+
+@keyframes t {
+    0% {
+        color: #641e16;
+      }
+      5% {
+        top: 25px;
+        color: #78281f;
+      }
+      10% {
+        top: 23px;
+        color: #512e5f;
+      }
+      15% {
+        top: 22px;
+        color: #4a235a;
+      }
+      20% {
+        top: 20px;
+        color: #154360;
+      }
+      25% {
+        top: 19px;
+        color: #1b4f72;
+      }
+      30% {
+        top: 17px;
+        color: #0e6251;
+      }
+      35% {
+        top: 16px;
+        color: #0b5345;
+      }
+      40% {
+        top: 14px;
+        color: #145a32;
+      }
+      45% {
+        top: 13px;
+        color: #186a3b;
+      }
+      50% {
+        top: 11px;
+        color: #7d6608;
+      }
+      55% {
+        top: 10px;
+        color: #7e5109;
+      }
+      60% {
+        top: 8px;
+        color: #6e2c00;
+      }
+      65% {
+        top: 7px;
+        color: #7b7d7d;
+      }
+      70% {
+        top: 5px;
+        color: #626567;
+      }
+      75% {
+        top: 4px;
+        color: #4d5656;
+      }
+      80% {
+        top: 2px;
+        color: #424949;
+      }
+      85% {
+        top: 1px;
+        color: #1b2631;
+      }
+      90% {
+        top: -1px;
+        color: #17202a;
+      }
+      95% {
+        top: -2px;
+        color: #1b4f72;
+      }
+      100% {
+        top: -4px;
+        color: #145a32;
+      }
+}
+
+/* **************h1***************** */
+.h1 {
+  position: relative;
+  top: 26px;
+  background-color: transparent;
+
+  animation: h1 1s 1.8s linear infinite alternate forwards;
+}
+
+@keyframes h1 {
+    0% {
+        color: #641e16;
+      }
+      5% {
+        top: 25px;
+        color: #78281f;
+      }
+      10% {
+        top: 23px;
+        color: #512e5f;
+      }
+      15% {
+        top: 22px;
+        color: #4a235a;
+      }
+      20% {
+        top: 20px;
+        color: #154360;
+      }
+      25% {
+        top: 19px;
+        color: #1b4f72;
+      }
+      30% {
+        top: 17px;
+        color: #0e6251;
+      }
+      35% {
+        top: 16px;
+        color: #0b5345;
+      }
+      40% {
+        top: 14px;
+        color: #145a32;
+      }
+      45% {
+        top: 13px;
+        color: #186a3b;
+      }
+      50% {
+        top: 11px;
+        color: #7d6608;
+      }
+      55% {
+        top: 10px;
+        color: #7e5109;
+      }
+      60% {
+        top: 8px;
+        color: #6e2c00;
+      }
+      65% {
+        top: 7px;
+        color: #7b7d7d;
+      }
+      70% {
+        top: 5px;
+        color: #626567;
+      }
+      75% {
+        top: 4px;
+        color: #4d5656;
+      }
+      80% {
+        top: 2px;
+        color: #424949;
+      }
+      85% {
+        top: 1px;
+        color: #1b2631;
+      }
+      90% {
+        top: -1px;
+        color: #17202a;
+      }
+      95% {
+        top: -2px;
+        color: #1b4f72;
+      }
+      100% {
+        top: -4px;
+        color: #145a32;
+      }
+}
+
+/* **************d***************** */
+.d {
+  position: relative;
+  top: 26px;
+  background-color: transparent;
+
+  animation: d 1s 2s linear infinite alternate forwards;
+}
+
+@keyframes d {
+    0% {
+        color: #641e16;
+      }
+      5% {
+        top: 25px;
+        color: #78281f;
+      }
+      10% {
+        top: 23px;
+        color: #512e5f;
+      }
+      15% {
+        top: 22px;
+        color: #4a235a;
+      }
+      20% {
+        top: 20px;
+        color: #154360;
+      }
+      25% {
+        top: 19px;
+        color: #1b4f72;
+      }
+      30% {
+        top: 17px;
+        color: #0e6251;
+      }
+      35% {
+        top: 16px;
+        color: #0b5345;
+      }
+      40% {
+        top: 14px;
+        color: #145a32;
+      }
+      45% {
+        top: 13px;
+        color: #186a3b;
+      }
+      50% {
+        top: 11px;
+        color: #7d6608;
+      }
+      55% {
+        top: 10px;
+        color: #7e5109;
+      }
+      60% {
+        top: 8px;
+        color: #6e2c00;
+      }
+      65% {
+        top: 7px;
+        color: #7b7d7d;
+      }
+      70% {
+        top: 5px;
+        color: #626567;
+      }
+      75% {
+        top: 4px;
+        color: #4d5656;
+      }
+      80% {
+        top: 2px;
+        color: #424949;
+      }
+      85% {
+        top: 1px;
+        color: #1b2631;
+      }
+      90% {
+        top: -1px;
+        color: #17202a;
+      }
+      95% {
+        top: -2px;
+        color: #1b4f72;
+      }
+      100% {
+        top: -4px;
+        color: #145a32;
+      }
+}
+
+/* **************a1***************** */
+.a1 {
+  position: relative;
+  top: 26px;
+  background-color: transparent;
+
+  animation: a1 1s 2.2s linear infinite alternate forwards;
+}
+
+@keyframes a1 {
+    0% {
+        color: #641e16;
+      }
+      5% {
+        top: 25px;
+        color: #78281f;
+      }
+      10% {
+        top: 23px;
+        color: #512e5f;
+      }
+      15% {
+        top: 22px;
+        color: #4a235a;
+      }
+      20% {
+        top: 20px;
+        color: #154360;
+      }
+      25% {
+        top: 19px;
+        color: #1b4f72;
+      }
+      30% {
+        top: 17px;
+        color: #0e6251;
+      }
+      35% {
+        top: 16px;
+        color: #0b5345;
+      }
+      40% {
+        top: 14px;
+        color: #145a32;
+      }
+      45% {
+        top: 13px;
+        color: #186a3b;
+      }
+      50% {
+        top: 11px;
+        color: #7d6608;
+      }
+      55% {
+        top: 10px;
+        color: #7e5109;
+      }
+      60% {
+        top: 8px;
+        color: #6e2c00;
+      }
+      65% {
+        top: 7px;
+        color: #7b7d7d;
+      }
+      70% {
+        top: 5px;
+        color: #626567;
+      }
+      75% {
+        top: 4px;
+        color: #4d5656;
+      }
+      80% {
+        top: 2px;
+        color: #424949;
+      }
+      85% {
+        top: 1px;
+        color: #1b2631;
+      }
+      90% {
+        top: -1px;
+        color: #17202a;
+      }
+      95% {
+        top: -2px;
+        color: #1b4f72;
+      }
+      100% {
+        top: -4px;
+        color: #145a32;
+      }
+}
+
+/* **************y1***************** */
+.y1 {
+  position: relative;
+  top: 26px;
+  background-color: transparent;
+
+  animation: y1 1s 2.4s linear infinite alternate forwards;
+}
+
+@keyframes y1 {
+    0% {
+        color: #641e16;
+      }
+      5% {
+        top: 25px;
+        color: #78281f;
+      }
+      10% {
+        top: 23px;
+        color: #512e5f;
+      }
+      15% {
+        top: 22px;
+        color: #4a235a;
+      }
+      20% {
+        top: 20px;
+        color: #154360;
+      }
+      25% {
+        top: 19px;
+        color: #1b4f72;
+      }
+      30% {
+        top: 17px;
+        color: #0e6251;
+      }
+      35% {
+        top: 16px;
+        color: #0b5345;
+      }
+      40% {
+        top: 14px;
+        color: #145a32;
+      }
+      45% {
+        top: 13px;
+        color: #186a3b;
+      }
+      50% {
+        top: 11px;
+        color: #7d6608;
+      }
+      55% {
+        top: 10px;
+        color: #7e5109;
+      }
+      60% {
+        top: 8px;
+        color: #6e2c00;
+      }
+      65% {
+        top: 7px;
+        color: #7b7d7d;
+      }
+      70% {
+        top: 5px;
+        color: #626567;
+      }
+      75% {
+        top: 4px;
+        color: #4d5656;
+      }
+      80% {
+        top: 2px;
+        color: #424949;
+      }
+      85% {
+        top: 1px;
+        color: #1b2631;
+      }
+      90% {
+        top: -1px;
+        color: #17202a;
+      }
+      95% {
+        top: -2px;
+        color: #1b4f72;
+      }
+      100% {
+        top: -4px;
+        color: #145a32;
+      }
+}
+
+/* ************* Happy birthday completed **************** */
+
+/* ************Name start************** */
+
+.main {
+    
+  width: 900px;
+  height: 300px;
+  display: flex;
+  margin: auto;
+  border-radius: 20px;
+  /* box-shadow: 0px 0px 900px 5px; */
+  margin-top: 300px;
+  font-family: cursive;
+}
+
+.main .ma {
+  height: 0px;
+  width: 60px;
+  background-color: transparent;
+  color: transparent;
+  /* background-color: blue; */
+  font-size: 100px;
+  margin-top: 100px;
+  margin-left: 50px;
+  box-shadow: 0px 120px 50px 15px;
+  animation-name: ma;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ma {
+  0% {
+    height: 0px;
+    width: 60px;
+    background-color: transparent;
+    /* color: transparent; */
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    visibility: hidden;
+    box-shadow: 0px 120px 50px 15px red;
+  }
+  50% {
+    height: 0px;
+    width: 60px;
+    background-color: transparent;
+    /* color: transparent; */
+    /* background-color: blue; */
+    color: #00ff80;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 170px 50px 15px #00ff80;
+  }
+}
+
+.main .mn {
+  height: 0px;
+
+  width: 60px;
+  background-color: transparent;
+  color: transparent;
+  /* background-color: blue; */
+  font-size: 100px;
+  margin-top: 100px;
+  margin-left: 50px;
+  box-shadow: 0px 120px 50px 15px;
+  animation-name: mn;
+  animation-duration: 3s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mn {
+  0% {
+    height: 0px;
+
+    width: 60px;
+    background-color: transparent;
+    /* color: transparent; */
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    visibility: hidden;
+    box-shadow: 0px 120px 50px 15px red;
+  }
+  50% {
+    height: 0px;
+
+    width: 60px;
+    background-color: transparent;
+    /* color: transparent; */
+    /* background-color: blue; */
+    color: #00ffff;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 170px 50px 15px #00ffff;
+  }
+}
+
+.main .mi {
+  height: 0px;
+
+  width: 60px;
+  background-color: transparent;
+  color: transparent;
+  /* background-color: blue; */
+  font-size: 100px;
+  margin-top: 100px;
+  margin-left: 50px;
+  box-shadow: 0px 120px 50px 15px;
+  animation-name: mi;
+  animation-duration: 3s;
+  animation-delay: 0.8s;
+
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mi {
+  0% {
+    height: 0px;
+
+    width: 60px;
+    background-color: transparent;
+    /* color: transparent; */
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    visibility: hidden;
+    box-shadow: 0px 120px 50px 15px red;
+  }
+  50% {
+    height: 0px;
+
+    width: 60px;
+    background-color: transparent;
+    /* color: transparent; */
+    /* background-color: blue; */
+    color: #0080ff;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 170px 50px 15px #0080ff;
+  }
+}
+
+.main .ml {
+  height: 0px;
+
+  width: 60px;
+  background-color: transparent;
+  color: transparent;
+  /* background-color: blue; */
+  font-size: 100px;
+  margin-top: 100px;
+  margin-left: 50px;
+  box-shadow: 0px 120px 50px 15px;
+  animation-name: ml;
+  animation-duration: 3s;
+  animation-delay: 1.2s;
+
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ml {
+  0% {
+    height: 0px;
+
+    width: 60px;
+    background-color: transparent;
+    /* color: transparent; */
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    visibility: hidden;
+    box-shadow: 0px 120px 50px 15px red;
+  }
+  50% {
+    height: 0px;
+
+    width: 60px;
+    background-color: transparent;
+    /* color: transparent; */
+    /* background-color: blue; */
+    color: #7f00ff;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 170px 50px 15px #7f00ff;
+  }
+}
+
+
+
+
+
+
+
+
+
+.main .msp {
+  height: 0px;
+
+  width: 60px;
+  background-color: transparent;
+  color: transparent;
+  /* background-color: blue; */
+  font-size: 100px;
+  margin-top: 100px;
+  margin-left: 50px;
+  box-shadow: 0px 120px 50px 15px;
+  animation-name: msp;
+  animation-duration: 3s;
+  /* animation-delay: 1.2s; */
+
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes msp {
+  0% {
+    height: 0px;
+
+    width: 60px;
+    background-color: transparent;
+    /* color: transparent; */
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    visibility: hidden;
+    /* box-shadow: 0px 120px 50px 15px red; */
+  }
+  50% {
+    height: 0px;
+
+    width: 60px;
+    background-color: transparent;
+    /* color: transparent; */
+    /* background-color: blue; */
+    /* color: #7f00ff; */
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    /* box-shadow: 0px 170px 50px 15px #7f00ff; */
+  }
+}
+
+
+
+
+
+
+.main .ms {
+  height: 0px;
+
+  width: 60px;
+  background-color: transparent;
+  color: transparent;
+  /* background-color: blue; */
+  font-size: 100px;
+  margin-top: 100px;
+  margin-left: 50px;
+  box-shadow: 0px 120px 50px 15px;
+  animation-name: ms;
+  animation-duration: 3s;
+  animation-delay: 1.8s;
+
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ms {
+  0% {
+    height: 0px;
+
+    width: 60px;
+    background-color: transparent;
+    /* color: transparent; */
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    visibility: hidden;
+    box-shadow: 0px 120px 50px 15px red;
+  }
+  50% {
+    height: 0px;
+
+    width: 60px;
+    background-color: transparent;
+    /* color: transparent; */
+    /* background-color: blue; */
+    color: #641E16;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 170px 50px 15px #641E16;
+  }
+}
+
+
+
+
+
+
+
+
+.main .mii {
+  height: 0px;
+
+  width: 60px;
+  background-color: transparent;
+  color: transparent;
+  /* background-color: blue; */
+  font-size: 100px;
+  margin-top: 100px;
+  margin-left: 50px;
+  box-shadow: 0px 120px 50px 15px;
+  animation-name: mii;
+  animation-duration: 3s;
+  animation-delay: 2.2s;
+
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mii {
+  0% {
+    height: 0px;
+
+    width: 60px;
+    background-color: transparent;
+    /* color: transparent; */
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    visibility: hidden;
+    box-shadow: 0px 120px 50px 15px red;
+  }
+  50% {
+    height: 0px;
+
+    width: 60px;
+    background-color: transparent;
+    /* color: transparent; */
+    /* background-color: blue; */
+    color: #7E5109;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 170px 50px 15px #7E5109;
+  }
+}
+
+
+
+
+
+
+
+
+.main .mr {
+  height: 0px;
+
+  width: 60px;
+  background-color: transparent;
+  color: transparent;
+  /* background-color: blue; */
+  font-size: 100px;
+  margin-top: 100px;
+  margin-left: 50px;
+  box-shadow: 0px 120px 50px 15px;
+  animation-name: mr;
+  animation-duration: 3s;
+  animation-delay: 2.6s;
+
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mr {
+  0% {
+    height: 0px;
+
+    width: 60px;
+    background-color: transparent;
+    /* color: transparent; */
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    visibility: hidden;
+    box-shadow: 0px 120px 50px 15px red;
+  }
+  50% {
+    height: 0px;
+
+    width: 60px;
+    background-color: transparent;
+    /* color: transparent; */
+    /* background-color: blue; */
+    color: #145A32;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 170px 50px 15px #145A32;
+  }
+}
+/* ************Name end************** */
+
+
+
+
+
+/* Coner box start */
+
+
+
+.box1{
+  transition: 1s;
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
+  height: 15vh;
+  width: 15vh;
+  border-radius: 20px;
+  background: url(img.gif);
+  background-size: cover;
+  background-position: center;
+  animation-name: box1;
+  animation-iteration-count: 1;
+}
+
+
+@keyframes box1 {
+  0%{
+    visibility: hidden;
+  }
+  90%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+
+.box1:hover{
+  transition: 1s;
+  box-shadow: 0px 0px 5px 2px green;
+}
+
+
+
+
+.box2{
+  transition: 1s;
+  position: absolute;
+  bottom: 0px;
+  right: 5px;
+  height: 15vh;
+  width: 15vh;
+  border-radius: 20px;
+  background: url(vid.gif);
+  background-size: cover;
+  background-position: center;
+  animation-name: box2;
+  animation-iteration-count: 1;
+}
+@keyframes box2 {
+  0%{
+    visibility: hidden;
+  }
+  90%{
+    visibility: hidden;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+
+.box2:hover{
+  transition: 1s;
+  box-shadow: 0px 0px 5px 2px green;
+}
+
+
+
+
+
+
